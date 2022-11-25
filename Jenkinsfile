@@ -16,5 +16,6 @@ pipeline {
          sh 'bash tnstc'
       }
     }
+    docker { image 'praveen191291/apache:latest }
   }
 }
