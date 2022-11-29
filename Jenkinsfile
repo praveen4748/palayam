@@ -19,5 +19,5 @@ pipeline {
     docker { image 'praveen191291/apache:latest }
   }
 }
-}
-}
+
+
